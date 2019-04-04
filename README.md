@@ -5,7 +5,7 @@ Decrypt files encrypted by Synology Cloud Sync.
 ## Usage 
 
 ```
-docker run -it -p 6080:80 -v <your-data-folder>:/data synology-decrypt-docker
+docker run -it -p 6080:80 -v <your-data-folder>:/data kaffeinesoft/synology-decrypt-docker
 ```
 
 Then go to http://localhost:6080.
